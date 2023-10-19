@@ -19,5 +19,5 @@ var geo_params = {
 };
 function get_geo_position() {
     var geo = navigator.geolocation; 
-    geo.getCurrentPosition(on_success, on_error, geo_params);
+    geo.getCurrentPosition(on_success, on_error, geo_params)
 }
